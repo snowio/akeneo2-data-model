@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use SnowIO\AkeneoDataModel\Event\AssetVariationSavedEvent;
+use SnowIO\Akeneo2DataModel\Event\AssetVariationSavedEvent;
 
 class AssetVariationSavedEventTest extends TestCase
 {

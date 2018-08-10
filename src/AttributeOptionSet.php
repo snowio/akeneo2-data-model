@@ -42,7 +42,7 @@ class AttributeOptionSet implements \IteratorAggregate
                 $optionCodeOrCodes = $localizationJson['attribute_values'][$attributeCode] ?? $json['attribute_values'][$attributeCode] ?? null;
                 if (\is_array($optionCodeOrCodes)) {
                     if (!\is_array($labelOrLabels) || \count($optionCodeOrCodes) != \count($labelOrLabels)) {
-                        throw new AkeneoDataException;
+                        throw new Akeneo2DataException;
                     }
                     $labels = \array_combine($optionCodeOrCodes, $labelOrLabels);
                     foreach ($labels as $optionCode => $label) {
@@ -54,7 +54,7 @@ class AttributeOptionSet implements \IteratorAggregate
                     }
                 } elseif ($optionCodeOrCodes !== null) {
                     if (\is_array($labelOrLabels)) {
-                        throw new AkeneoDataException;
+                        throw new Akeneo2DataException;
                     }
                     $optionIdentifier = AttributeOptionIdentifier::of($attributeCode, (string)$optionCodeOrCodes);
                     $option = $options[$optionIdentifier->toString()] ?? AttributeOption::of($optionIdentifier);

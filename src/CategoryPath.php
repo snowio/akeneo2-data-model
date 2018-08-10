@@ -7,15 +7,15 @@ class CategoryPath
     public static function of(array $categoryCodes): self
     {
         if (empty($categoryCodes)) {
-            throw new AkeneoDataException('Path must not be empty but an empty array was specified.');
+            throw new Akeneo2DataException('Path must not be empty but an empty array was specified.');
         }
         $result = new self;
         foreach ($categoryCodes as $categoryCode) {
             if (!\is_string($categoryCode)) {
-                throw new AkeneoDataException('Path must only contain strings but a non-strong was specified.');
+                throw new Akeneo2DataException('Path must only contain strings but a non-strong was specified.');
             }
             if (\in_array($categoryCode, $result->path, $strict = true)) {
-                throw new AkeneoDataException('Path must not contain duplicate category codes.');
+                throw new Akeneo2DataException('Path must not contain duplicate category codes.');
             }
             $result->path[] = $categoryCode;
         }

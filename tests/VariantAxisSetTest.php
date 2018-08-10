@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use SnowIO\AkeneoDataModel\VariantAxisSet;
+use SnowIO\Akeneo2DataModel\VariantAxisSet;
 
 class VariantAxisSetTest extends TestCase
 {
@@ -16,7 +16,7 @@ class VariantAxisSetTest extends TestCase
 
     /**
      * @test
-     * @expectedException \SnowIO\AkeneoDataModel\AkeneoDataException
+     * @expectedException \SnowIO\Akeneo2DataModel\Akeneo2DataException
      */
     public function shouldThrowAnErrorIfTheNumberOfAxesIsGreaterThanFive()
     {

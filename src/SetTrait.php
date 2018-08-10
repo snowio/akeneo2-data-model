@@ -2,7 +2,7 @@
 declare(strict_types=1);
 namespace SnowIO\Akeneo2DataModel;
 
-use SnowIO\Akeneo2DataModel\AkeneoDataException;
+use SnowIO\Akeneo2DataModel\Akeneo2DataException;
 
 trait SetTrait
 {
@@ -13,10 +13,10 @@ trait SetTrait
             try {
                 $key = self::getKey($item);
             } catch (\Throwable $e) {
-                throw new AkeneoDataException;
+                throw new Akeneo2DataException;
             }
             if (isset($set->items[$key])) {
-                throw new AkeneoDataException;
+                throw new Akeneo2DataException;
             }
             $set->items[$key] = $item;
         }
@@ -31,7 +31,7 @@ trait SetTrait
     public function add(self $otherSet): self
     {
         if ($otherSet->overlaps($this)) {
-            throw new AkeneoDataException;
+            throw new Akeneo2DataException;
         }
         $result = new self;
         $result->items = \array_merge($this->items, $otherSet->items);

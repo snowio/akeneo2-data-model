@@ -16,7 +16,7 @@ class VariantAxisSet implements \IteratorAggregate
     private static function validate(array $json)
     {
         if (count($json) > 5) {
-            throw new AkeneoDataException('Invalid number of axes [should not exceed 5]');
+            throw new Akeneo2DataException('Invalid number of axes [should not exceed 5]');
         }
     }
 

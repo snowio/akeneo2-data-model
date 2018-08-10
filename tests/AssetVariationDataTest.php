@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use SnowIO\AkeneoDataModel\AssetVariationData;
+use SnowIO\Akeneo2DataModel\AssetVariationData;
 
 class AssetVariationDataTest extends TestCase
 {

@@ -9,10 +9,10 @@ class PriceCollection implements \IteratorAggregate
         $pricesByCurrency = [];
         foreach ($prices as $price) {
             if (!$price instanceof Price) {
-                throw new AkeneoDataException;
+                throw new Akeneo2DataException;
             }
             if (isset($pricesByCurrency[$price->getCurrency()])) {
-                throw new AkeneoDataException;
+                throw new Akeneo2DataException;
             }
             $pricesByCurrency[$price->getCurrency()] = $price;
         }
@@ -52,13 +52,13 @@ class PriceCollection implements \IteratorAggregate
         $prices = [];
         foreach ($json as $currencyCode => $amount) {
             if (!\is_string($currencyCode)) {
-                throw new AkeneoDataException;
+                throw new Akeneo2DataException;
             }
             if ($amount === null) {
                 continue;
             }
             if (!\is_string($amount)) {
-                throw new AkeneoDataException;
+                throw new Akeneo2DataException;
             }
             $prices[$currencyCode] = Price::of($amount, $currencyCode);
         }

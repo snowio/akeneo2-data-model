@@ -83,7 +83,7 @@ class AttributeValueSet implements \IteratorAggregate
             \array_intersect_key($this->attributeValues, $attributeValueSet->attributeValues) !== []
             || \array_intersect_key($attributeValueSet->attributeValues, $this->attributeValues) !== []
         ) {
-            throw new AkeneoDataException;
+            throw new Akeneo2DataException;
         }
 
         $mergedValues = \array_merge($this->attributeValues, $attributeValueSet->attributeValues);

@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use SnowIO\AkeneoDataModel\Event\FamilyVariantDeletedEvent;
+use SnowIO\Akeneo2DataModel\Event\FamilyVariantDeletedEvent;
 
 class FamilyVariantDeletedEventTest extends TestCase
 {

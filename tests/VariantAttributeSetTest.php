@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use SnowIO\AkeneoDataModel\VariantAttributeSet;
+use SnowIO\Akeneo2DataModel\VariantAttributeSet;
 
 class VariantAttributeSetTest extends TestCase
 {

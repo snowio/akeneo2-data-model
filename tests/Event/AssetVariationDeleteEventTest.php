@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use SnowIO\AkeneoDataModel\Event\AssetVariationDeletedEvent;
+use SnowIO\Akeneo2DataModel\Event\AssetVariationDeletedEvent;
 
 class AssetVariationDeleteEventTest extends TestCase
 {

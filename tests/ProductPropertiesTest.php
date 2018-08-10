@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use SnowIO\AkeneoDataModel\ProductProperties;
+use SnowIO\Akeneo2DataModel\ProductProperties;
 
 class ProductPropertiesTest extends TestCase
 {

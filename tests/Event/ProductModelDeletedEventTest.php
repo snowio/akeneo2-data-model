@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use SnowIO\AkeneoDataModel\Event\ProductModelDeletedEvent;
+use SnowIO\Akeneo2DataModel\Event\ProductModelDeletedEvent;
 
 class ProductModelDeletedEventTest extends TestCase
 {

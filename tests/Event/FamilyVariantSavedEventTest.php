@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use SnowIO\AkeneoDataModel\Event\FamilyVariantSavedEvent;
+use SnowIO\Akeneo2DataModel\Event\FamilyVariantSavedEvent;
 
 class FamilyVariantSavedEventTest extends TestCase
 {

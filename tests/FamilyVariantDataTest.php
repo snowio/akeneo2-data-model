@@ -1,6 +1,6 @@
 <?php
 
-use SnowIO\AkeneoDataModel\FamilyVariantData;
+use SnowIO\Akeneo2DataModel\FamilyVariantData;
 
 class FamilyVariantDataTest extends \PHPUnit\Framework\TestCase
 {

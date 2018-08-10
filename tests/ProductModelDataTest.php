@@ -1,10 +1,10 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use SnowIO\AkeneoDataModel\PriceCollection;
-use SnowIO\AkeneoDataModel\ProductModelData;
-use SnowIO\AkeneoDataModel\ProductModelProperties;
-use SnowIO\AkeneoDataModel\Scope;
+use SnowIO\Akeneo2DataModel\PriceCollection;
+use SnowIO\Akeneo2DataModel\ProductModelData;
+use SnowIO\Akeneo2DataModel\ProductModelProperties;
+use SnowIO\Akeneo2DataModel\Scope;
 
 class ProductModelDataTest extends TestCase
 {

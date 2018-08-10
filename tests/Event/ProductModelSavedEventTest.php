@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use SnowIO\AkeneoDataModel\Event\ProductModelSavedEvent;
+use SnowIO\Akeneo2DataModel\Event\ProductModelSavedEvent;
 
 class ProductModelSavedEventTest extends TestCase
 {

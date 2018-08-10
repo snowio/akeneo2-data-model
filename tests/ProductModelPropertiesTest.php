@@ -1,8 +1,9 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use SnowIO\AkeneoDataModel\CategoryPath;
-use SnowIO\AkeneoDataModel\FamilyVariantData;
+use SnowIO\Akeneo2DataModel\CategoryPath;
+use SnowIO\Akeneo2DataModel\FamilyVariantData;
+use SnowIO\Akeneo2DataModel\ProductModelProperties;
 
 class ProductModelPropertiesTest extends TestCase
 {
@@ -11,7 +12,7 @@ class ProductModelPropertiesTest extends TestCase
      */
     public function shouldCreateAnObjectFromAValidArray()
     {
-        $productModelProperties = \SnowIO\AkeneoDataModel\ProductModelProperties::fromJson($productModelPropertyData = [
+        $productModelProperties = ProductModelProperties::fromJson($productModelPropertyData = [
             'code' => 'foo-bar',
             'categories' => [
                 'master_men_blazers'
