@@ -1,4 +1,4 @@
-# Akeneo Data Model
+# Akeneo 2 Data Model
 
 This package lets users work with models when access and transforming events coming 
 from the Akeneo 1 and 2 connector.
