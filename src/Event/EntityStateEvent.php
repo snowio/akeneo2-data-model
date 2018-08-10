@@ -1,5 +1,5 @@
 <?php
-namespace SnowIO\AkeneoDataModel\Event;
+namespace SnowIO\Akeneo2DataModel\Event;
 
 abstract class EntityStateEvent
 {

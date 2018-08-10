@@ -5,7 +5,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SnowIO\\AkeneoDataModel\\": "src"
+            "SnowIO\\Akeneo2DataModel\\": "src"
         }
     },
     "require-dev": {

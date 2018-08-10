@@ -1,6 +1,6 @@
 <?php
 
-namespace SnowIO\AkeneoDataModel;
+namespace SnowIO\Akeneo2DataModel;
 
 class FamilyVariantData
 {

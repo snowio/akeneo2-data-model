@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace SnowIO\AkeneoDataModel;
+namespace SnowIO\Akeneo2DataModel;
 
 class FamilyAttributeSet implements \IteratorAggregate
 {

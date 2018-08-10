@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace SnowIO\AkeneoDataModel\Event;
+namespace SnowIO\Akeneo2DataModel\Event;
 
-use SnowIO\AkeneoDataModel\FamilyData;
+use SnowIO\Akeneo2DataModel\FamilyData;
 
 final class FamilySavedEvent extends EntityStateEvent
 {

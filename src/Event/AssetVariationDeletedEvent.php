@@ -1,8 +1,8 @@
 <?php
 
-namespace SnowIO\AkeneoDataModel\Event;
+namespace SnowIO\Akeneo2DataModel\Event;
 
-use SnowIO\AkeneoDataModel\AssetVariationData;
+use SnowIO\Akeneo2DataModel\AssetVariationData;
 
 final class AssetVariationDeletedEvent extends EntityStateEvent
 {

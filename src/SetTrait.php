@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace SnowIO\AkeneoDataModel;
+namespace SnowIO\Akeneo2DataModel;
 
-use SnowIO\AkeneoDataModel\AkeneoDataException;
+use SnowIO\Akeneo2DataModel\AkeneoDataException;
 
 trait SetTrait
 {

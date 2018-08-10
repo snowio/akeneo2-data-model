@@ -1,7 +1,7 @@
 <?php
-namespace SnowIO\AkeneoDataModel\Event;
+namespace SnowIO\Akeneo2DataModel\Event;
 
-use SnowIO\AkeneoDataModel\FamilyVariantData;
+use SnowIO\Akeneo2DataModel\FamilyVariantData;
 
 final class FamilyVariantSavedEvent extends EntityStateEvent
 {

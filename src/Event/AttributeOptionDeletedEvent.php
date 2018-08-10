@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
-namespace SnowIO\AkeneoDataModel\Event;
+namespace SnowIO\Akeneo2DataModel\Event;
 
-use SnowIO\AkeneoDataModel\AttributeOption;
-use SnowIO\AkeneoDataModel\AttributeOptionIdentifier;
-use SnowIO\AkeneoDataModel\InternationalizedString;
+use SnowIO\Akeneo2DataModel\AttributeOption;
+use SnowIO\Akeneo2DataModel\AttributeOptionIdentifier;
+use SnowIO\Akeneo2DataModel\InternationalizedString;
 
 final class AttributeOptionDeletedEvent extends EntityStateEvent
 {

@@ -1,7 +1,7 @@
 <?php
-namespace SnowIO\AkeneoDataModel\Event;
+namespace SnowIO\Akeneo2DataModel\Event;
 
-use SnowIO\AkeneoDataModel\FamilyData;
+use SnowIO\Akeneo2DataModel\FamilyData;
 
 final class FamilyDeletedEvent extends EntityStateEvent
 {
