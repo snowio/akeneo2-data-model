@@ -1,5 +1,5 @@
 {
-    "name": "snowio/akeneo-data-model",
+    "name": "snowio/akeneo2-data-model",
     "require": {
         "php": ">=7.1"
     },
