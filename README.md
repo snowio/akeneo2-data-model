@@ -13,8 +13,7 @@ from an akeneo application.
 ### Installing
 
 ```
-composer require snowio/akeneo-data-model:0.1.x #For Akeneo 1 support
-composer require snowio/akeneo-data-model:2.0.x #For Akeneo 2 support
+composer require snowio/akeneo2-data-model
 ```
 
 ## Running the tests
