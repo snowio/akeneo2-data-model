@@ -1,14 +1,14 @@
 # Akeneo 2 Data Model
 
 This package lets users work with models when access and transforming events coming 
-from the Akeneo 1 and 2 connector.
+from the Akeneo 2 connector.
 
 ## Getting Started
 
 ### Prerequisites
 
 This data model should be used within the snow io project mappings. The events **MUST** be coming
-from an akeneo application.
+from an akeneo 2 application.
 
 ### Installing
 
