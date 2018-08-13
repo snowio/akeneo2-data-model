@@ -15,7 +15,7 @@ class ProductModelPropertiesTest extends TestCase
         $productModelProperties = ProductModelProperties::fromJson($productModelPropertyData = [
             'code' => 'foo-bar',
             'categories' => [
-                'master_men_blazers'
+                ['master_men_blazers']
             ],
             'family_variant' => FamilyVariantDataTest::getFamilyVariantData(),
             'parent' => 'master_blazers'

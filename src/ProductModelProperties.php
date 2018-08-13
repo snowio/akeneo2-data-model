@@ -9,12 +9,12 @@ class ProductModelProperties
         $properties = new self;
         $properties->code = $json['code'];
         $properties->familyVariant = FamilyVariantData::fromJson($json['family_variant']);
-        $properties->categories = CategoryPath::of($json['categories']);
+        $properties->categories = CategoryPathSet::of($json['categories']);
         $properties->parent = $json['parent'];
         return $properties;
     }
 
-    public function getCategories(): CategoryPath
+    public function getCategories(): CategoryPathSet
     {
         return $this->categories;
     }
