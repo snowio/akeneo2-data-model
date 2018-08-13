@@ -1,5 +1,9 @@
 # Akeneo 2 Data Model
 
+[![Build Status](https://travis-ci.com/snowio/akeneo2-data-model.svg?branch=master)](https://travis-ci.com/snowio/akeneo2-data-model)
+[![codecov](https://codecov.io/gh/snowio/akeneo2-data-model/branch/master/graph/badge.svg)](https://codecov.io/gh/snowio/akeneo2-data-model)
+
+
 This package lets users work with models when access and transforming events coming 
 from the Akeneo 2 connector.
 
