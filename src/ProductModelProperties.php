@@ -44,10 +44,6 @@ class ProductModelProperties
         return $this->parent;
     }
 
-    public function equals(): bool
-    {
-
-    }
 
     private $code;
     private $familyVariant;
