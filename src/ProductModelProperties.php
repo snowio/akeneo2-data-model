@@ -9,7 +9,7 @@ class ProductModelProperties
         $properties = new self;
         $properties->code = $json['code'];
         $properties->familyVariant = FamilyVariantData::fromJson($json['family_variant']);
-        $properties->categories = CategoryPathSet::of($json['categories']);
+        $properties->categories = CategoryPathSet::fromJson($json['categories']);
         $properties->parent = $json['parent'];
         return $properties;
     }

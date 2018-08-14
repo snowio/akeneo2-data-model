@@ -27,7 +27,7 @@ class ProductModelDataTest extends TestCase
             'channel' => 'test-channel',
             'code' => 'pm1234',
             'family_variant' => FamilyVariantDataTest::getFamilyVariantData(),
-            'categories' => ['test_categories'],
+            'categories' => [['test_categories']],
             'parent' => 'test-parent',
             'attribute_values' => self::getAttributeValueJson(),
             'localizations' => [
